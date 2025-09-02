@@ -28,8 +28,8 @@ void mergeProcedure(int a[], int b[], int c[], int m, int n)
     }
     while (j < n)
     {
-        c[k] = a[i];
-        i++;
+        c[k] = a[j];
+        j++;
         k++;
     }
 }
