@@ -1,3 +1,4 @@
+// included mid in first half
 #include <stdio.h>
 void printArray(int a[], int n)
 {
@@ -48,7 +49,6 @@ void merge(int a[], int low, int mid, int high)
 void mergeSort(int a[], int low, int high)
 {
     int mid;
-
     if (low < high)
     {
         mid = (low + high) / 2;
@@ -59,7 +59,7 @@ void mergeSort(int a[], int low, int high)
 }
 int main()
 {
-    int a[] = {111, 2, 3, 2, 5, 5, 4, 3, 65, 7, 90, 7, 6, 77, 7, 3, 34, 5, 02, 1, 9};
+    int a[] = {9, 8, 19, 12, 7};
 
     int low = 0;
     int n = sizeof(a) / sizeof(a[0]);
