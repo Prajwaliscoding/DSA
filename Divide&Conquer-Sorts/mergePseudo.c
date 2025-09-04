@@ -2,9 +2,9 @@
 void mergePseudo(int a[], int c[], int low, int mid, int high)
 {
     int i = low;
-    int j = mid;
+    int j = mid + 1;
     int k = low;
-    while (i < mid && j <= high)
+    while (i <= mid && j <= high)
     {
         if (a[i] < a[j])
         {
@@ -19,7 +19,7 @@ void mergePseudo(int a[], int c[], int low, int mid, int high)
             k++;
         }
     }
-    while (i < mid)
+    while (i <= mid)
     {
         c[k] = a[i];
         i++;
@@ -34,7 +34,7 @@ void mergePseudo(int a[], int c[], int low, int mid, int high)
 }
 int main()
 {
-    int a[] = {9, 9, 8, 18, 18};
+    int a[] = {9, 9, 10, 6, 18};
     int c[5];
 
     int low, mid, high;
