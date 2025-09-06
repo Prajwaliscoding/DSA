@@ -11,7 +11,7 @@ int binarySearch(int arr[], int n, int target)
         if (arr[mid] == target)
         {
             return mid;
-        }
+        } 
         if (arr[mid] < target)
         {
             left = mid + 1;
