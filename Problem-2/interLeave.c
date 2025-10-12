@@ -1,5 +1,3 @@
-// Name: Prajwal Khatiwada
-// ID: 1002239223
 
 // Compilation command on Omega: gcc -o t2 lab2.c
 // Run command on Omega for input lab2.a.dat : ./t2 a.out < lab2.a.dat
