@@ -1,4 +1,10 @@
-/* OMEGA compile: gcc -O2 -Wall -Wextra -std=c17 interleave.c -o interleave */
+// Name: Prajwal Khatiwada
+// ID: 1002239223
+
+// Compilation command on Omega: gcc -o t2 lab2.c
+// Run command on Omega for input lab2.a.dat : ./t2 a.out < lab2.a.dat
+// Run command on Omega for input lab2.b.dat : ./t2 a.out < lab2.b.dat
+// Run command on Omega for input lab2.c.dat : ./t2 a.out < lab2.c.dat
 
 #include <stdio.h>
 #include <stdlib.h>
