@@ -1,4 +1,6 @@
-``text
+## Input example
+
+``bash
 9
 1 2 1
 1 3 3
